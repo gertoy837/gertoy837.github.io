@@ -802,13 +802,13 @@ section {
 }
 
 .contact .php-email-form button {
-  background: #7752FE;
+  background: #190482;
   color: white;
-  display: inline-block;
   padding: 10px 30px;
   margin-top: 10px;
-  border: 1px solid #7752FE;
+  border: none;
   border-radius: 1.5rem;
+  display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -828,10 +828,10 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #190482;
+  background: #7752FE;
   border-radius: 1.5rem;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
   -webkit-transform-origin: 50%;
   transform-origin: 50%;
   -webkit-transition-property: transform;
@@ -846,8 +846,8 @@ section {
   color: white;
 }
 .contact .php-email-form button:hover:before, .contact .php-email-form button:focus:before, .contact .php-email-form button:active:before {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
 }
 
 @keyframes animate-loading {
